@@ -88,4 +88,11 @@ ul {
     justify-content: center;
 
     list-style: none;
+
+}
+
+ul li a:hover{
+    transform: translateY(-5px);
+
+    transition: 0.2s;
 }
