@@ -15,17 +15,3 @@ function changeSocialMidiaLinks() {
 }
 
 changeSocialMidiaLinks()
-
-function getGitHubProfileInfos() {
-    const url = `https://api.github.com/users/${userForEachSocialMidiaLink.github}`
-
-    fetch(url).then(res => res.json())
-    .then(data => {
-        userName.textContent = data.name
-        userLink.href = data.html_url
-        userImage.src = data.avatar_url
-        userLogin.textContent = data.login
-    })
-}
-
-getGitHubProfileInfos()
