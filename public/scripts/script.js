@@ -8,7 +8,7 @@ const userForEachSocialMidiaLink = {
 
 function changeSocialMidiaLinks() {
     for (let li of socialLinks.children){
-        const social = li.getAttribute('class')
+        const social = li.getAttribute('id')
 
         li.children[0].href = `https://${social}.com/${userForEachSocialMidiaLink[social]}`
     }
@@ -30,3 +30,13 @@ changeSocialMidiaLinks()
 // }
 
 // getGitHubProfileInfos()
+
+let list = document.querySelectorAll('.list')
+
+function setActiveClass() {
+    list.forEach((item) =>
+    item.classList.remove('active'));
+    this.classList.add('active');
+}
+
+list.forEach((item) => item.addEventListener('mouseover' , setActiveClass))
