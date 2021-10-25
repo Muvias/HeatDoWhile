@@ -9,3 +9,7 @@
 
 ### Desktop Version:
 ![Screenshot_5](https://user-images.githubusercontent.com/52111824/138755854-69cad52d-9a4b-4939-9a10-23f8144978fc.png)
+
+### hover functionalities
+![Screenshot_7](https://user-images.githubusercontent.com/52111824/138778870-eca6439d-cea3-4d11-9acc-0caa78c0af9c.png)
+
