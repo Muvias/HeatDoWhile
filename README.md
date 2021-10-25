@@ -1,4 +1,4 @@
-# HeatDoWhile
+# HeatDoWhile - Customize your business card 😄
 
 
 <p>  Just a simple custom card project for anyone to introduce yourself.</p>
