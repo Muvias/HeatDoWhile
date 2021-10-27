@@ -1,7 +1,7 @@
 # HeatDoWhile - Customize your business card 😄
 > Status: Finished
 
-<p>  Just a simple custom card project for anyone to introduce yourself.</p>
+<p>  Just a simple custom card project for anyone to introduce themselves.</p>
 
 #### Technologies Used:
 - HTML
